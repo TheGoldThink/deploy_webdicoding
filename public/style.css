@@ -1,0 +1,35 @@
+
+body{  background:#020312;}
+.cv {
+  padding: 160px 16% 90px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 2rem;
+}
+.cv h2 {
+  font-size: 3.5rem;
+  color: #fff;
+}
+.isi h4 {
+  margin: 10px 0;
+  color: #dc8449;
+  font-size: 20px;
+  font-weight: 600;
+}
+.isi h2 {
+  font-size: 3.5rem;
+  color: #fff;
+}
+
+.isi article {
+  color: #fff;
+  font-size: 1.1rem;
+  line-height: 30px;
+  margin-bottom: 2rem;
+} img {
+  width: 50%;
+  height: auto;
+  max-width: 460px;
+  margin-bottom: 1rem;
+}
