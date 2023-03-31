@@ -33,3 +33,51 @@ body{  background:#020312;}
   max-width: 460px;
   margin-bottom: 1rem;
 }
+
+footer {
+  height: auto;
+  width: 100vw;
+  padding-top: 2px;
+  color: #fff;
+}
+.footerisi {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.footerisi h3 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 3rem;
+}
+.footerisi p {
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+}
+.social {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+  padding-right: 2.5%;
+}
+.social li {
+  margin: 0 10px;
+}
+.social a {
+  text-decoration: none;
+  color: #fff;
+}
+.social a i {
+  font-size: 1.1rem;
+  transition: all 0.4s ease;
+}
+.social a:hover i {
+  color: #dc8449;
+}
